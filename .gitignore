@@ -5,6 +5,7 @@ vendor/
 # Fichiers de configuration locale
 .env
 .env.local
+.env.*.local
 
 # Fichiers de build
 dist/
@@ -23,6 +24,7 @@ storage/*.key
 *.swp
 *.swo
 .DS_Store
+Thumbs.db
 
 # Base de données locale
 *.sqlite
@@ -31,3 +33,7 @@ storage/*.key
 # Fichiers temporaires
 *.tmp
 .temp/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
