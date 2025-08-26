@@ -1,0 +1,33 @@
+# Dépendances
+node_modules/
+vendor/
+
+# Fichiers de configuration locale
+.env
+.env.local
+
+# Fichiers de build
+dist/
+build/
+public/build/
+public/hot
+
+# Logs
+*.log
+npm-debug.log*
+storage/*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Base de données locale
+*.sqlite
+*.sql
+
+# Fichiers temporaires
+*.tmp
+.temp/
