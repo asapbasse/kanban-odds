@@ -1,0 +1,117 @@
+# ------------------------------------------------------
+# Node.js / Frontend
+# ------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# ------------------------------------------------------
+# PHP / Laravel / Symfony
+# ------------------------------------------------------
+vendor/
+.env
+.env.local
+.env.*.local
+.env.test
+.env.development
+.env.production
+.env.backup
+
+# Laravel specific
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Symfony specific
+/var/
+/config/jwt/*.pem
+
+# ------------------------------------------------------
+# Python (si scripts IA intégrés)
+# ------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+.pytest_cache/
+.ipynb_checkpoints
+
+# Virtual env
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------
+# Logs & données temporaires
+# ------------------------------------------------------
+*.log
+*.log.*
+*.sqlite3
+*.sqlite
+*.db
+*.sql
+*.tar
+*.gz
+*.zip
+
+# ------------------------------------------------------
+# IDE & éditeurs
+# ------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------
+# OS spécifiques
+# ------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------
+# Tests & coverage
+# ------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+.pytest_cache/
+.tox/
+
+# ------------------------------------------------------
+# Misc
+# ------------------------------------------------------
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+*.orig
