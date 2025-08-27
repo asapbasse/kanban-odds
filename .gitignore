@@ -1,39 +1,117 @@
-# Dépendances
+# ------------------------------------------------------
+# Node.js / Frontend
+# ------------------------------------------------------
 node_modules/
-vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Fichiers de configuration locale
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+tmp/
+temp/
+
+# ------------------------------------------------------
+# PHP / Laravel / Symfony
+# ------------------------------------------------------
+vendor/
 .env
 .env.local
 .env.*.local
+.env.test
+.env.development
+.env.production
+.env.backup
 
-# Fichiers de build
-dist/
-build/
-public/build/
-public/hot
+# Laravel specific
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
 
-# Logs
+# Symfony specific
+/var/
+/config/jwt/*.pem
+
+# ------------------------------------------------------
+# Python (si scripts IA intégrés)
+# ------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+.pytest_cache/
+.ipynb_checkpoints
+
+# Virtual env
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------
+# Logs & données temporaires
+# ------------------------------------------------------
 *.log
-npm-debug.log*
-storage/*.key
+*.log.*
+*.sqlite3
+*.sqlite
+*.db
+*.sql
+*.tar
+*.gz
+*.zip
 
-# IDE
+# ------------------------------------------------------
+# IDE & éditeurs
+# ------------------------------------------------------
 .vscode/
 .idea/
-*.swp
-*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------
+# OS spécifiques
+# ------------------------------------------------------
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Base de données locale
-*.sqlite
-*.sql
+# ------------------------------------------------------
+# Tests & coverage
+# ------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+.pytest_cache/
+.tox/
 
-# Fichiers temporaires
+# ------------------------------------------------------
+# Misc
+# ------------------------------------------------------
+*.bak
+*.swp
+*.swo
 *.tmp
-.temp/
-storage/framework/cache/*
-storage/framework/sessions/*
-storage/framework/testing/*
-storage/framework/views/*
+*.temp
+*.orig
